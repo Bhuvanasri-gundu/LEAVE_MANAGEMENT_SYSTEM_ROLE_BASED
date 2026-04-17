@@ -3,12 +3,12 @@ import timesheetsMockData from '../data/timesheets.json';
 import performanceReviewsMockData from '../data/performanceReviews.json';
 
 // ── Axios instance ──────────────────────────────────────────────────────────
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://leave-management-system-role-based.onrender.com';
-console.log('🔌 API BASE_URL:', BASE_URL);
-console.log('🔌 Environment VITE_API_URL:', import.meta.env.VITE_API_URL);
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://leave-management-system-role-based.onrender.com/api';
+console.log('🔌 API Base URL:', API_BASE_URL);
+console.log('🔌 Environment VITE_API_BASE_URL:', import.meta.env.VITE_API_BASE_URL);
 
 const api = axios.create({
-  baseURL: BASE_URL + '/api',
+  baseURL: API_BASE_URL,
   timeout: 10000,
 });
 
