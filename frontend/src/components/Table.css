@@ -1,0 +1,132 @@
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.data-table thead {
+  background: #f8fafc;
+}
+
+.data-table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #4b5563;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 14px 16px;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+
+.table-row {
+  transition: background 0.15s ease;
+}
+
+.table-row:hover {
+  background: #fff7ed;
+}
+
+.table-row:last-child td {
+  border-bottom: none;
+}
+
+.table-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.table-empty {
+  text-align: center;
+  padding: 48px 16px !important;
+}
+
+.table-empty__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #9ca3af;
+}
+
+.table-empty__icon {
+  font-size: 32px;
+  opacity: 0.5;
+}
+
+/* Action buttons */
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.btn-action--view {
+  background: #eff6ff;
+  color: #3b82f6;
+}
+.btn-action--view:hover {
+  background: #dbeafe;
+}
+
+.btn-action--edit {
+  background: #f0fdf4;
+  color: #22c55e;
+}
+.btn-action--edit:hover {
+  background: #dcfce7;
+}
+
+.btn-action--delete {
+  background: #fef2f2;
+  color: #ef4444;
+}
+.btn-action--delete:hover {
+  background: #fee2e2;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.status-badge--pending { background: #fef3c7; color: #d97706; }
+.status-badge--approved { background: #d1fae5; color: #059669; }
+.status-badge--rejected { background: #fee2e2; color: #dc2626; }
+.status-badge--cancelled { background: #f3f4f6; color: #6b7280; }
+.status-badge--taken { background: #dbeafe; color: #2563eb; }
+.status-badge--scheduled { background: #e0e7ff; color: #4f46e5; }
+.status-badge--submitted { background: #fef3c7; color: #d97706; }
+.status-badge--in-progress { background: #dbeafe; color: #2563eb; }
+.status-badge--not-started { background: #f3f4f6; color: #6b7280; }
+.status-badge--completed { background: #d1fae5; color: #059669; }
+.status-badge--overdue { background: #fee2e2; color: #dc2626; }

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TS-001",
+    "employeeId": "EMP-001",
+    "employeeName": "John Smith",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Pending",
+    "totalHours": 40,
+    "entries": [
+      { "day": "Mon", "project": "Project Alpha", "hours": 8 },
+      { "day": "Tue", "project": "Project Alpha", "hours": 8 },
+      { "day": "Wed", "project": "Project Alpha", "hours": 8 },
+      { "day": "Thu", "project": "Project Beta", "hours": 8 },
+      { "day": "Fri", "project": "Project Beta", "hours": 8 }
+    ]
+  },
+  {
+    "id": "TS-002",
+    "employeeId": "EMP-005",
+    "employeeName": "David Wilson",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Submitted",
+    "totalHours": 38,
+    "entries": [
+      { "day": "Mon", "project": "QA Sprint 12", "hours": 8 },
+      { "day": "Tue", "project": "QA Sprint 12", "hours": 8 },
+      { "day": "Wed", "project": "QA Sprint 12", "hours": 6 },
+      { "day": "Thu", "project": "QA Sprint 12", "hours": 8 },
+      { "day": "Fri", "project": "QA Sprint 12", "hours": 8 }
+    ]
+  },
+  {
+    "id": "TS-003",
+    "employeeId": "EMP-007",
+    "employeeName": "James Taylor",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Approved",
+    "totalHours": 42,
+    "entries": [
+      { "day": "Mon", "project": "DevOps Pipeline", "hours": 9 },
+      { "day": "Tue", "project": "DevOps Pipeline", "hours": 8 },
+      { "day": "Wed", "project": "Infrastructure", "hours": 9 },
+      { "day": "Thu", "project": "Infrastructure", "hours": 8 },
+      { "day": "Fri", "project": "DevOps Pipeline", "hours": 8 }
+    ]
+  },
+  {
+    "id": "TS-004",
+    "employeeId": "EMP-008",
+    "employeeName": "Amanda Martinez",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Pending",
+    "totalHours": 36,
+    "entries": [
+      { "day": "Mon", "project": "UI Redesign", "hours": 7 },
+      { "day": "Tue", "project": "UI Redesign", "hours": 8 },
+      { "day": "Wed", "project": "UI Redesign", "hours": 7 },
+      { "day": "Thu", "project": "Brand Kit", "hours": 7 },
+      { "day": "Fri", "project": "Brand Kit", "hours": 7 }
+    ]
+  },
+  {
+    "id": "TS-005",
+    "employeeId": "EMP-011",
+    "employeeName": "William Lee",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Submitted",
+    "totalHours": 40,
+    "entries": [
+      { "day": "Mon", "project": "API Development", "hours": 8 },
+      { "day": "Tue", "project": "API Development", "hours": 8 },
+      { "day": "Wed", "project": "API Development", "hours": 8 },
+      { "day": "Thu", "project": "API Development", "hours": 8 },
+      { "day": "Fri", "project": "Code Review", "hours": 8 }
+    ]
+  },
+  {
+    "id": "TS-006",
+    "employeeId": "EMP-002",
+    "employeeName": "Sarah Johnson",
+    "period": "2026-03-23 to 2026-03-29",
+    "status": "Approved",
+    "totalHours": 44,
+    "entries": [
+      { "day": "Mon", "project": "Team Management", "hours": 9 },
+      { "day": "Tue", "project": "Team Management", "hours": 9 },
+      { "day": "Wed", "project": "Sprint Planning", "hours": 9 },
+      { "day": "Thu", "project": "Sprint Planning", "hours": 8 },
+      { "day": "Fri", "project": "1-on-1s", "hours": 9 }
+    ]
+  }
+]

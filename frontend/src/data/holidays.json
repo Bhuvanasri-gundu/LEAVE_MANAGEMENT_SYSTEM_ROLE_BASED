@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "New Year's Day", "date": "2026-01-01", "recurring": true, "length": "Full Day" },
+  { "id": 2, "name": "Martin Luther King Jr. Day", "date": "2026-01-19", "recurring": true, "length": "Full Day" },
+  { "id": 3, "name": "Presidents' Day", "date": "2026-02-16", "recurring": true, "length": "Full Day" },
+  { "id": 4, "name": "Memorial Day", "date": "2026-05-25", "recurring": true, "length": "Full Day" },
+  { "id": 5, "name": "Independence Day", "date": "2026-07-04", "recurring": true, "length": "Full Day" },
+  { "id": 6, "name": "Labor Day", "date": "2026-09-07", "recurring": true, "length": "Full Day" },
+  { "id": 7, "name": "Thanksgiving Day", "date": "2026-11-26", "recurring": true, "length": "Full Day" },
+  { "id": 8, "name": "Christmas Day", "date": "2026-12-25", "recurring": true, "length": "Full Day" },
+  { "id": 9, "name": "Company Foundation Day", "date": "2026-03-15", "recurring": true, "length": "Half Day" }
+]

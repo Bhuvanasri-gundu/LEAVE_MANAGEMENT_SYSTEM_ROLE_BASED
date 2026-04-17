@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Annual Leave", "daysPerYear": 20, "situational": false },
+  { "id": 2, "name": "Sick Leave", "daysPerYear": 12, "situational": true },
+  { "id": 3, "name": "Personal Leave", "daysPerYear": 5, "situational": false },
+  { "id": 4, "name": "Maternity Leave", "daysPerYear": 90, "situational": true },
+  { "id": 5, "name": "Paternity Leave", "daysPerYear": 10, "situational": true },
+  { "id": 6, "name": "Bereavement Leave", "daysPerYear": 5, "situational": true },
+  { "id": 7, "name": "Unpaid Leave", "daysPerYear": 30, "situational": false }
+]

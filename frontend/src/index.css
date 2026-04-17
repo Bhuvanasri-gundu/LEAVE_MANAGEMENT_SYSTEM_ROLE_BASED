@@ -1,0 +1,187 @@
+/* ===== CSS Reset & Global Styles ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f1f5f9;
+  color: #1f2937;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Selection */
+::selection {
+  background: rgba(232, 131, 58, 0.2);
+  color: #1f2937;
+}
+
+/* ===== Design System Enhancements ===== */
+:root {
+  --color-approve: linear-gradient(135deg, #22c55e, #16a34a);
+  --color-reject: linear-gradient(135deg, #ef4444, #dc2626);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --radius-lg: 12px;
+  --radius-md: 10px;
+}
+
+/* Modern Status Badges */
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 85px;
+}
+
+.status-badge--pending { background: #fef3c7; color: #92400e; }
+.status-badge--approved { background: #dcfce7; color: #166534; }
+.status-badge--rejected { background: #fee2e2; color: #991b1b; }
+.status-badge--cancelled { background: #f3f4f6; color: #374151; }
+
+/* Toast Modern UI Positioning */
+.toast-container {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.toast {
+  min-width: 320px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: slideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  border-left: 5px solid #e5e7eb;
+  position: relative;
+  overflow: hidden;
+}
+
+.toast--success { border-left-color: #22c55e; }
+.toast--error { border-left-color: #ef4444; }
+.toast--warning { border-left-color: #f59e0b; }
+.toast--info { border-left-color: #3b82f6; }
+
+.toast__icon { font-size: 18px; }
+.toast__message { font-size: 14px; font-weight: 500; color: #374151; flex: 1; }
+.toast__close {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(110%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Modern Action Buttons */
+.btn-approve {
+  background: var(--color-approve);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(22, 163, 74, 0.2);
+  white-space: nowrap;
+}
+.btn-approve:hover { transform: translateY(-2px); filter: brightness(1.05); box-shadow: 0 6px 12px rgba(22, 163, 74, 0.3); }
+.btn-approve:active { transform: translateY(0); }
+.btn-approve:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+
+.btn-reject {
+  background: var(--color-reject);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(220, 38, 38, 0.2);
+  white-space: nowrap;
+}
+.btn-reject:hover { transform: translateY(-2px); filter: brightness(1.05); box-shadow: 0 6px 12px rgba(220, 38, 38, 0.3); }
+.btn-reject:active { transform: translateY(0); }
+.btn-reject:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+
+.spinner--small {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

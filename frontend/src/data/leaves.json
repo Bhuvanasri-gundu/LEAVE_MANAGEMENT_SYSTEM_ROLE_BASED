@@ -1,0 +1,122 @@
+[
+  {
+    "id": "LV-001",
+    "employeeId": "EMP-001",
+    "employeeName": "John Smith",
+    "leaveType": "Annual Leave",
+    "fromDate": "2026-04-01",
+    "toDate": "2026-04-05",
+    "duration": "5.00",
+    "status": "Pending",
+    "comments": "Family vacation",
+    "appliedDate": "2026-03-25"
+  },
+  {
+    "id": "LV-002",
+    "employeeId": "EMP-005",
+    "employeeName": "David Wilson",
+    "leaveType": "Sick Leave",
+    "fromDate": "2026-03-28",
+    "toDate": "2026-03-28",
+    "duration": "1.00",
+    "status": "Approved",
+    "comments": "Medical appointment",
+    "appliedDate": "2026-03-27"
+  },
+  {
+    "id": "LV-003",
+    "employeeId": "EMP-008",
+    "employeeName": "Amanda Martinez",
+    "leaveType": "Personal Leave",
+    "fromDate": "2026-04-10",
+    "toDate": "2026-04-11",
+    "duration": "2.00",
+    "status": "Pending",
+    "comments": "Personal matter",
+    "appliedDate": "2026-03-26"
+  },
+  {
+    "id": "LV-004",
+    "employeeId": "EMP-002",
+    "employeeName": "Sarah Johnson",
+    "leaveType": "Annual Leave",
+    "fromDate": "2026-05-01",
+    "toDate": "2026-05-10",
+    "duration": "8.00",
+    "status": "Scheduled",
+    "comments": "Spring break trip",
+    "appliedDate": "2026-03-20"
+  },
+  {
+    "id": "LV-005",
+    "employeeId": "EMP-007",
+    "employeeName": "James Taylor",
+    "leaveType": "Sick Leave",
+    "fromDate": "2026-03-30",
+    "toDate": "2026-03-30",
+    "duration": "1.00",
+    "status": "Taken",
+    "comments": "Feeling unwell",
+    "appliedDate": "2026-03-30"
+  },
+  {
+    "id": "LV-006",
+    "employeeId": "EMP-004",
+    "employeeName": "Emily Davis",
+    "leaveType": "Maternity Leave",
+    "fromDate": "2026-06-01",
+    "toDate": "2026-09-01",
+    "duration": "66.00",
+    "status": "Approved",
+    "comments": "Maternity leave",
+    "appliedDate": "2026-03-15"
+  },
+  {
+    "id": "LV-007",
+    "employeeId": "EMP-011",
+    "employeeName": "William Lee",
+    "leaveType": "Annual Leave",
+    "fromDate": "2026-04-15",
+    "toDate": "2026-04-18",
+    "duration": "4.00",
+    "status": "Rejected",
+    "comments": "Travel plans",
+    "appliedDate": "2026-03-22"
+  },
+  {
+    "id": "LV-008",
+    "employeeId": "EMP-010",
+    "employeeName": "Jennifer Garcia",
+    "leaveType": "Personal Leave",
+    "fromDate": "2026-04-08",
+    "toDate": "2026-04-08",
+    "duration": "1.00",
+    "status": "Cancelled",
+    "comments": "Changed plans",
+    "appliedDate": "2026-03-24"
+  },
+  {
+    "id": "LV-009",
+    "employeeId": "EMP-001",
+    "employeeName": "John Smith",
+    "leaveType": "Sick Leave",
+    "fromDate": "2026-03-15",
+    "toDate": "2026-03-15",
+    "duration": "1.00",
+    "status": "Taken",
+    "comments": "Flu",
+    "appliedDate": "2026-03-15"
+  },
+  {
+    "id": "LV-010",
+    "employeeId": "EMP-009",
+    "employeeName": "Robert Thomas",
+    "leaveType": "Annual Leave",
+    "fromDate": "2026-04-20",
+    "toDate": "2026-04-25",
+    "duration": "4.00",
+    "status": "Pending",
+    "comments": "Family event",
+    "appliedDate": "2026-03-28"
+  }
+]
