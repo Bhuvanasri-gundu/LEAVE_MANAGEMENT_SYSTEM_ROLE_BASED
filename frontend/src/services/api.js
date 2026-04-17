@@ -3,7 +3,7 @@ import timesheetsMockData from '../data/timesheets.json';
 import performanceReviewsMockData from '../data/performanceReviews.json';
 
 // ── Axios instance ──────────────────────────────────────────────────────────
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://leave-management-system-backend-mg2o.onrender.com';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://leave-management-system-role-based.onrender.com';
 console.log('🔌 API BASE_URL:', BASE_URL);
 console.log('🔌 Environment VITE_API_URL:', import.meta.env.VITE_API_URL);
 
