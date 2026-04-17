@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://leave-management-system-topaz.vercel.app'
+  'https://leave-management-system-role-based.vercel.app'
 ];
 
 app.use(cors({
